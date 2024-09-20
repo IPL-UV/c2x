@@ -236,9 +236,10 @@ plt.plot([-1,4],[-1,4],color='C1')
 # rmse is  [0.09207479]
 ```
 
-<div style="text-align:center;">
-    <img src="assets/images/image1.png" style="width:50%;">
-</div>
+<p align="center">
+  <img src="assets/images/image1.png" width="50%">
+</p>
+
 
 ```python
 NNrmse = {'C1':0.0174, 'C2A':0.0234, 'C2AX':0.4356, 'C2S':0.0290, 'C2SX':0.0971}
@@ -275,21 +276,26 @@ for case in set(testcase):
     plt.xlim([1e-3,1e2]); plt.ylim([1e-3,1e2])
     plt.legend()
 ```
-<div style="text-align:center;">
-    <img src="assets/images/image2.png" style="width:50%;">
-</div>
-<div style="text-align:center;">
-    <img src="assets/images/image3.png" style="width:50%;">
-</div>
-<div style="text-align:center;">
-    <img src="assets/images/image4.png" style="width:50%;">
-</div>
-<div style="text-align:center;">
-    <img src="assets/images/image5.png" style="width:50%;">
-</div>
-<div style="text-align:center;">
-    <img src="assets/images/image6.png" style="width:50%;">
-</div>
+
+<p align="center">
+  <img src="assets/images/image2.png" width="50%">
+</p>
+
+<p align="center">
+  <img src="assets/images/image3.png" width="50%">
+</p>
+
+<p align="center">
+  <img src="assets/images/image4.png" width="50%">
+</p>
+
+<p align="center">
+  <img src="assets/images/image5.png" width="50%">
+</p>
+
+<p align="center">
+  <img src="assets/images/image6.png" width="50%">
+</p>
 
 
 ## Results
